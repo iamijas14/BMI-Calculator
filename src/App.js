@@ -17,6 +17,8 @@ export default function App() {
     calculateBMI
   } = useBmi("/api/bmi");
 
+  document.title = "BMI calculator";
+
   return (
     <div className="appBody">
       <Header heading={"BMI Calculator"} />
