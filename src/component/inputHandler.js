@@ -1,7 +1,7 @@
 const InputHandler = ({ height, setHeight, weight, setWeight }) => {
   return (
     <>
-      <div class="input-group flex-nowrap inputField">
+      <div className="input-group flex-nowrap inputField">
         <input
           className="form-control"
           aria-label="Username"
@@ -11,11 +11,11 @@ const InputHandler = ({ height, setHeight, weight, setWeight }) => {
           value={height}
           onChange={(event) => setHeight(event.target.value)}
         />
-        <span class="input-group-text" id="addon-wrapping">
+        <span className="input-group-text" id="addon-wrapping">
           cm
         </span>
       </div>
-      <div class="input-group flex-nowrap inputField">
+      <div className="input-group flex-nowrap inputField">
         <input
           className="form-control"
           aria-label="Username"
@@ -25,7 +25,7 @@ const InputHandler = ({ height, setHeight, weight, setWeight }) => {
           value={weight}
           onChange={(event) => setWeight(event.target.value)}
         />
-        <span class="input-group-text kg" id="addon-wrapping">
+        <span className="input-group-text kg" id="addon-wrapping">
           kg
         </span>
       </div>
