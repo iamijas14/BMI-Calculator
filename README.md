@@ -1,2 +1,2 @@
 # BMI-Calculator
-Created with CodeSandbox
+Body Mass Index calculator gives out the BMI value and categorizes BMI based on provided information. It includes reference chart.
